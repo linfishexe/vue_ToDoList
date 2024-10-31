@@ -44,25 +44,26 @@ ul {
   padding: 0;
   width: 100%;
 }
-
 ul li div {
+  max-width: 400px;
   width: 100%;
   border: 0;
   border-bottom: 2px solid #ccc;
   margin-bottom: 10px;
 }
 ul li div p {
-  width: 80%;
+  max-width: 360px;
   font-size: 15x;
-  padding: 0 20px;
+  padding: 0 10px;
   top: 50%;
   transform: translateY(-50%);
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
 ul li input {
   margin: 10px 5px;
-  width: 10%;
+  min-width: 40px;
   height: 30px;
   border: none;
   border-radius: 5px;
@@ -70,7 +71,7 @@ ul li input {
 
 ul li button {
   margin: 10px 5px;
-  width: 10%;
+  min-width: 40px;
   border: none;
   border-radius: 5px;
 }
